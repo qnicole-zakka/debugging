@@ -1,4 +1,8 @@
-### Reminder to install flask and pillow are in README files inside of "benign" and "malicious" directories. But not in the scripts. Users need to install these two before "make run".
+### Reminder to manually install flask and pillow. Not automatically installed (they are noted in README files inside of "benign" and "malicious" directories)
+
+### Other proxy setting for apt-get during docker image build:
+https://docs.docker.com/network/proxy/#configure-the-docker-client
+add ~/.docker/config.json
 
 ## Make run with "GLIBC_2.27 not found" error
 
